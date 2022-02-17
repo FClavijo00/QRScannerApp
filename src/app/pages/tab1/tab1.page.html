@@ -1,0 +1,17 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            Scan QR
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-slides [options]="slideOpts">
+        <ion-slide>
+            <ion-button (click)="scan()" expand="full" fill="outline" shape="round">
+                Scan QR Code
+            </ion-button>
+        </ion-slide>
+    </ion-slides>
+</ion-content>
